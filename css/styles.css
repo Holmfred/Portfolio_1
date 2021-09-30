@@ -1,0 +1,58 @@
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*Text*/
+
+h1, 
+h2 {
+    color: goldenrod;
+}
+
+/*Buttons*/
+.cross-course-buttons,
+.project-buttons,
+.exam-buttons {
+    display:flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+button {
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+}
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.fa-instagram {
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.copy {
+    color: goldenrod;
+    font-size: 20px;
+}
+
