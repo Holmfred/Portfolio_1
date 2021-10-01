@@ -14,6 +14,14 @@ h2 {
     color: goldenrod;
 }
 
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*Buttons*/
 .cross-course-buttons,
 .project-buttons,
@@ -30,6 +38,7 @@ button {
     width: 100px;
     height: 35px;
     background-color:black; 
+    cursor: pointer;
 }
 
 /*Main*/
@@ -39,6 +48,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 
 /*Footer*/
 
